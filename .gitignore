@@ -1,0 +1,49 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment files
+.env
+.env.*
+
+# Jupyter / notebook checkpoints
+.ipynb_checkpoints/
+
+# Local data artifacts
+*.log
+*.sqlite3
+*.db
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / coverage output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Streamlit / local app caches
+.streamlit/
+
+# Optional: keep large local datasets out of git if not needed
+sample_data.csv
+sample_activity.csv
