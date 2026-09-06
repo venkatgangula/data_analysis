@@ -360,7 +360,7 @@ import plotly.graph_objects as go
 import requests
 import streamlit as st
 
-DEFAULT_API_URL = "http://127.0.0.1:8001"
+DEFAULT_API_URL = "https://data-analysis-o2wf.onrender.com"
 
 st.set_page_config(
     page_title="Data Analysis Workbench",
